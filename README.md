@@ -1,6 +1,5 @@
 # WeiChuang-SmartHome
 A smart home controller，the following are control commands.
-401258036@qq.com    This is my email.
 发送(Sending)：
                      开(ON)          关(OFF)
 客厅
