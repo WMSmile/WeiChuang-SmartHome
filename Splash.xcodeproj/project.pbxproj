@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04522D951CE2D171002B896E /* SqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04522D921CE2D171002B896E /* SqliteTool.m */; };
+		04522D961CE2D171002B896E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 04522D941CE2D171002B896E /* User.m */; };
+		04522D981CE2D191002B896E /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04522D971CE2D191002B896E /* RegisterViewController.m */; };
 		046D1DFC1CAD732800785F12 /* ConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D1DFB1CAD732800785F12 /* ConsoleViewController.m */; };
 		046D1E011CAD742500785F12 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D1DFE1CAD742500785F12 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		046D1E021CAD742500785F12 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D1E001CAD742500785F12 /* AsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		046D1E041CAD748D00785F12 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D1E031CAD748D00785F12 /* CFNetwork.framework */; };
 		046D1E061CAD749A00785F12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046D1E051CAD749A00785F12 /* CoreGraphics.framework */; };
-		04C145D71CABF58F0071E6D7 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C145D61CABF58F0071E6D7 /* RegisterViewController.m */; };
 		04C145D91CABF9F70071E6D7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C145D81CABF9F70071E6D7 /* libsqlite3.0.tbd */; };
-		04C145DC1CABFA340071E6D7 /* SqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C145DB1CABFA340071E6D7 /* SqliteTool.m */; };
-		04C145DF1CABFAB00071E6D7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C145DE1CABFAB00071E6D7 /* User.m */; };
 		04C645951CADFD44006245CB /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C645941CADFD44006245CB /* SettingViewController.m */; };
 		04D73F911CA307B500E63FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F901CA307B500E63FBA /* main.m */; };
 		04D73F941CA307B500E63FBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D73F931CA307B500E63FBA /* AppDelegate.m */; };
@@ -52,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04522D911CE2D171002B896E /* SqliteTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SqliteTool.h; path = Splash/SqliteTool.h; sourceTree = "<group>"; };
+		04522D921CE2D171002B896E /* SqliteTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SqliteTool.m; path = Splash/SqliteTool.m; sourceTree = "<group>"; };
+		04522D931CE2D171002B896E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Splash/User.h; sourceTree = "<group>"; };
+		04522D941CE2D171002B896E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Splash/User.m; sourceTree = "<group>"; };
+		04522D971CE2D191002B896E /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = Splash/RegisterViewController.m; sourceTree = "<group>"; };
+		04522D991CE2D198002B896E /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = Splash/RegisterViewController.h; sourceTree = "<group>"; };
 		046D1DFA1CAD732800785F12 /* ConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleViewController.h; sourceTree = "<group>"; };
 		046D1DFB1CAD732800785F12 /* ConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleViewController.m; sourceTree = "<group>"; };
 		046D1DFD1CAD742500785F12 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
@@ -60,13 +66,7 @@
 		046D1E001CAD742500785F12 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 		046D1E031CAD748D00785F12 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		046D1E051CAD749A00785F12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		04C145D51CABF58F0071E6D7 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		04C145D61CABF58F0071E6D7 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		04C145D81CABF9F70071E6D7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		04C145DA1CABFA340071E6D7 /* SqliteTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteTool.h; sourceTree = "<group>"; };
-		04C145DB1CABFA340071E6D7 /* SqliteTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteTool.m; sourceTree = "<group>"; };
-		04C145DD1CABFAB00071E6D7 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		04C145DE1CABFAB00071E6D7 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		04C645931CADFD44006245CB /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		04C645941CADFD44006245CB /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		04D73F8C1CA307B500E63FBA /* 微创智能家居.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微创智能家居.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,12 +185,12 @@
 		04C145D41CABF5470071E6D7 /* Register */ = {
 			isa = PBXGroup;
 			children = (
-				04C145D51CABF58F0071E6D7 /* RegisterViewController.h */,
-				04C145D61CABF58F0071E6D7 /* RegisterViewController.m */,
-				04C145DA1CABFA340071E6D7 /* SqliteTool.h */,
-				04C145DB1CABFA340071E6D7 /* SqliteTool.m */,
-				04C145DD1CABFAB00071E6D7 /* User.h */,
-				04C145DE1CABFAB00071E6D7 /* User.m */,
+				04522D991CE2D198002B896E /* RegisterViewController.h */,
+				04522D971CE2D191002B896E /* RegisterViewController.m */,
+				04522D911CE2D171002B896E /* SqliteTool.h */,
+				04522D921CE2D171002B896E /* SqliteTool.m */,
+				04522D931CE2D171002B896E /* User.h */,
+				04522D941CE2D171002B896E /* User.m */,
 			);
 			name = Register;
 			path = ..;
@@ -437,17 +437,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FD44431CAE6DEF0011F567 /* BathViewController.m in Sources */,
-				04C145DC1CABFA340071E6D7 /* SqliteTool.m in Sources */,
 				04FD44381CAE449C0011F567 /* SendTool.m in Sources */,
 				046D1E021CAD742500785F12 /* AsyncUdpSocket.m in Sources */,
 				04D73F971CA307B500E63FBA /* ViewController.m in Sources */,
 				046D1E011CAD742500785F12 /* AsyncSocket.m in Sources */,
-				04C145DF1CABFAB00071E6D7 /* User.m in Sources */,
+				04522D961CE2D171002B896E /* User.m in Sources */,
 				046D1DFC1CAD732800785F12 /* ConsoleViewController.m in Sources */,
+				04522D981CE2D191002B896E /* RegisterViewController.m in Sources */,
 				04D73F941CA307B500E63FBA /* AppDelegate.m in Sources */,
+				04522D951CE2D171002B896E /* SqliteTool.m in Sources */,
 				04D73F911CA307B500E63FBA /* main.m in Sources */,
 				04C645951CADFD44006245CB /* SettingViewController.m in Sources */,
-				04C145D71CABF58F0071E6D7 /* RegisterViewController.m in Sources */,
 				04FDF7931CAFF457002BF8C5 /* MBProgressHUD+CZ.m in Sources */,
 				04FD44401CAE6A6A0011F567 /* SleepViewController.m in Sources */,
 				04FD443D1CAE619C0011F567 /* HomeViewController.m in Sources */,
